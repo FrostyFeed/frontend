@@ -1,0 +1,48 @@
+form{
+    border: 2px solid red;
+    width: 450px;
+    height: fit-content;
+}
+h1{
+    text-align: center;
+}
+input,label{
+    display: block;
+    margin: 5px 5px 0px 15px;
+}
+div{
+    margin-bottom: 15px;
+}
+input{
+    width: 90%;
+    height: 25px;
+}
+input:invalid + label{
+    display: block;
+}
+input:invalid{
+    outline: none !important;
+    border: 2px solid red;
+}
+input:valid{
+    outline: none !important;
+    border: 2px solid greenyellow;
+}
+input:focus{
+    outline: none !important;
+    border: 2px solid blue;
+}
+label:nth-child(3){
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+button{
+    margin-left: 15px;
+    width: 30%;
+    height: 35px;
+    background-color: rgb(19, 243, 232);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
