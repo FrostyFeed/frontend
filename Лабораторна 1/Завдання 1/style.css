@@ -1,0 +1,26 @@
+input{
+    display: none;
+}
+
+div{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: max-content;
+}
+
+label{
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+    margin: 0px;
+}
+label:nth-child(2){
+    background-color: gray;
+    display: none;
+    margin-left: -5px;
+    width: 100%;
+}
+input:checked + label:nth-child(2){
+    display: block;
+}
