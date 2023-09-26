@@ -1,0 +1,20 @@
+td{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+div{
+    margin-bottom: 15px;
+}
+input{
+    margin-left: 35px;
+}
+select{
+    margin-left: 55px;
+}
+section{
+    border: 1px solid black;
+    width: 250px;
+    padding: 5px;
+    border-radius: 10px;
+}
