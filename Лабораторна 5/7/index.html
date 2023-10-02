@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="">width: 0</label> <input type="range" name="" min="0" max="500" id="width" oninput="changeWidth()"><label for="">500</label>
+            <div class="value">value</div>
+        </div>
+        <div>
+            <label for="">height: 0</label> <input type="range" name="" min="0" max="500" id="height" oninput="changeHeight()"><label for="">500</label>
+            <div class="value">value</div>
+        </div>
+        <div>
+            <label for="">rotate: 0</label> <input type="range" name="" min="0" max="360" id="rotate" oninput="rotateBlock()"><label for="">360</label>
+            <div class="value">value</div>
+        </div>
+    </form>
+    <div id="block">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

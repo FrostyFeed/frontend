@@ -1,0 +1,10 @@
+.value{
+    display: inline;
+    border: 1px solid black;
+}
+#block{
+    width: 250px;
+    height: 150px;
+    background-color: blue;
+    margin: 150px;
+}
