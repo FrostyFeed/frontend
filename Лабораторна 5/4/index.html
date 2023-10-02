@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <p id="result"> Загальний рахунок 0% (0 правильних відповідей з 4)</p>
+        
+        
+        <form action="">
+            <div>
+                <button type="reset" onclick="nextQuestion()" >Наступне завдання</button>
+            </div>
+            <div class="answers">
+                <label for="" id="question"></label><input type="text" id="userAnswer"> <button type="button" onclick="checkAnswer()">Check</button>
+            </div>
+        </form>
+        <p id="answer"> </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
