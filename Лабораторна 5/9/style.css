@@ -1,0 +1,14 @@
+.main{
+    width: 250px;
+}
+.section{
+    width: 200px;
+    display: flex;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 2px;
+}
+.left,.right{
+    width: 50%;
+}
+

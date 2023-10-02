@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Список товарів</p>
+    <div class="main">
+        <div class="section">
+            <div class="left">Брюки</div>
+            <div class="right"><button type="button" onclick="order('br')">Замовити</button></div>
+        </div>
+        <div class="section">
+            <div class="left">Сорочка</div>
+            <div class="right"><button type="button" onclick="order('sr')">Замовити</button></div>
+        </div> 
+        <div class="section">
+            <div class="left">Шорти</div>
+            <div class="right"><button type="button" onclick="order('sh')">Замовити</button></div>
+        </div>
+        <div class="section">
+            <div class="left">Туфлі</div>
+            <div class="right"><button type="button" onclick="order('tf')">Замовити</button></div>
+        </div>
+    </div>
+    <p>Кошик:</p>
+    <div class="main">
+        <div class="section">
+            <div class="left">Товар</div>
+            <div class="right">Кількість</div>
+        </div>
+        <div class="section">
+            <div class="left" >Брюки</div>
+            <div class="right" id="br">0</div>
+        </div>
+        <div class="section">
+            <div class="left" >Шорти</div>
+            <div class="right" id="sh">0</div>
+        </div>
+        <div class="section">
+            <div class="left" >Туфлі</div>
+            <div class="right" id="tf">0</div>
+        </div>
+        <div class="section">
+            <div class="left">Сорочка</div>
+            <div class="right"  id="sr">0</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
