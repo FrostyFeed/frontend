@@ -1,0 +1,16 @@
+.input{
+    margin: 15px;
+    border: 1px solid lightskyblue;
+    width: 250px;
+    height: 50px;
+    padding: 15px;
+}
+input,textarea{
+    border-color: lightskyblue;
+}
+.active{
+    background-color: rgb(0, 132, 255);
+}
+input{
+    height: 35px;
+}
