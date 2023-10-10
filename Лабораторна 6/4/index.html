@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main" id="1">
+        <div class="buttons">
+            <button id="edit1" onclick="editText()"><img src="edit.png" alt=""></button>
+            <button id="delete1" onclick="deleteBlock()"><img src="delete.png" alt=""></button>
+        </div>
+        <div class="text">
+            <textarea onblur="editText()" readonly="true" name="" id="text1" cols="50" rows="10"></textarea>
+        </div>
+    </div>
+    <div class="main" id="2">
+        <div class="buttons">
+            <button id="edit2"><img src="edit.png" alt=""></button>
+            <button id="delete2"><img src="delete.png" alt=""></button>
+        </div>
+        <div class="text">
+            <textarea readonly="true" name="" id="text2" cols="50" rows="10"></textarea>
+        </div>
+    </div>
+    <div class="main" id="3">
+        <div class="buttons">
+            <button id="edit3"><img src="edit.png" alt=""></button>
+            <button id="delete3"><img src="delete.png" alt=""></button>
+        </div>
+        <div class="text">
+            <textarea  readonly="true" name="" id="text3" cols="50" rows="10"></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
