@@ -1,0 +1,44 @@
+td{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 0px;
+}
+#red{
+    background-color: red;
+}
+#crimson{
+    background-color: crimson;
+}
+#blue{
+    background-color: blue;
+}
+#brown{
+    background-color: brown;
+}
+#green{
+    background-color: green;
+}
+#deeppink{
+    background-color: deeppink;
+}
+#cyan{
+    background-color: cyan;
+}
+#lime{
+    background-color: lime;
+}
+#orangered{
+    background-color: orangered;
+}
+#block,.test{
+    width: 250px;
+    height: 150px;
+    border: 1px solid black;
+}
+.selected{
+    border: 2px solid yellow;
+}
+.test{
+    background: linear-gradient(blue,deeppink);
+}
