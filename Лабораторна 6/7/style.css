@@ -1,0 +1,26 @@
+.main{
+    border: 2px solid brown;
+    width: 300px;
+    height: fit-content;
+    color: brown;
+    margin-top: 15px;
+}
+.top{
+    border-bottom: 2px solid brown;
+    display: flex;
+}
+.nickname,.date{
+    width: 50%;
+}
+.date{
+    text-align: right;
+}
+.line{
+    margin-top: 15px;
+}
+input{
+    margin-left: 15px;
+}
+textarea{
+    margin-left: 15px;
+}
