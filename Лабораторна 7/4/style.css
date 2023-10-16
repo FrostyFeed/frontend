@@ -1,0 +1,10 @@
+.option{
+    width: 100px;
+    height: fit-content;
+    border: 2px solid red;
+    margin-top: 15px;
+    text-align: center;
+}
+.selected{
+    background-color: red;
+}
