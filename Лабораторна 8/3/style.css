@@ -1,0 +1,32 @@
+.main{
+    width: 250px;
+    border: 2px solid red;
+    height: 250px;
+    overflow: hidden;
+
+}
+#wrapper{
+    width: 500%;
+    height: 250px;
+    display: flex;
+    transition: all 2s ease-in-out;
+}
+.slide1,.slide2,.slide3,.slide4,.slide5{
+    width: 250px;
+    height: 250px;
+}
+.slide1{
+    background-color: blue;
+}
+.slide2{
+    background-color: red;
+}
+.slide3{
+    background-color: green;
+}
+.slide4{
+    background-color: gold;
+}
+.slide5{
+    background-color: rebeccapurple;
+}
