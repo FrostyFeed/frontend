@@ -1,0 +1,28 @@
+.wrapper{
+    width: 400px;
+    height: 500px;
+}
+.row{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-top: 15px;
+}
+.left{
+    width: 70%;
+}
+.right{
+    margin-left: 15px;  
+}
+input{
+    width: 100%;
+}
+.img img{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+.displayPic{
+    height: 350px;
+    width: 150px;
+}
