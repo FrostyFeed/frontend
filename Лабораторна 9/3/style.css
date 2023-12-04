@@ -1,0 +1,11 @@
+td{
+    border: 2px solid black;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+}
+table{
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
+}

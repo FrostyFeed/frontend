@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+}
+.tabs{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+}
+.content{
+    margin: 10px;
+    width: 100vw;
+    height: 100vh;
+    background-color: wheat;
+    color: black;
+    padding: 35px;
+}
+.tab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+    margin-left: 15px;
+    border: 2px solid greenyellow;
+}
+.selected{
+    background-color: greenyellow;
+}
