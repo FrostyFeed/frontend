@@ -1,0 +1,11 @@
+.time{
+    display: flex;
+    justify-content: center;
+}
+.timer{
+    margin-top: 45px;
+    width: 200px;
+}
+div{
+    margin-right: 25px;
+}
