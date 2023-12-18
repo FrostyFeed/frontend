@@ -7,7 +7,6 @@ let radios = [0,0,0]
 let pass = document.getElementById('pass')
 window.addEventListener('load',() =>{
     text.value = localStorage.getItem('text')
-    loadCheckBoxes()
     setCheckBoxes()
     setTextArea()
     setRadio()
@@ -31,8 +30,10 @@ function loadCheckBoxes(){
     localStorage.setItem('checkboxes',checbtns)
 }
 function setCheckBoxes(){
+    let test = localStorage.getItem('checkboxes')
+    let boxes = test.split(',')
     for(let i =0;i<3;i++){
-        if(checbtns[i] == 1)
+        if(boxes[i] == 1)
             check[i].checked = true
         else{
             check[i].checked = false
@@ -53,14 +54,16 @@ function loadRadio(){
             radios[i] = 0
         }
     }
-    localStorage.setItem('checkboxes',checbtns)
+    localStorage.setItem('radio',radios)
 }
 function setRadio(){
+    let test = localStorage.getItem('radio')
+    let radioData = test.split(',')
     for(let i =0;i<3;i++){
-        if(radio[i] == 1)
-            radios[i].checked = true
+        if(radioData[i] == 1)
+            radio[i].checked = true
         else{
-            radios[i].checked = false
+            radio[i].checked = false
         }
     }
 }
